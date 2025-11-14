@@ -7,14 +7,12 @@
   --prymary: #64419A;
   --secundary : #3c2035;
   --ligh : #0f3327;
-  --dark : #579185;
   --diabled : #cbe6db;
   --colordate:#f2e9e2;
 }
 
 body{
   height: 100vh;
-  background-color: var();
   text-transform: capitalize;
 }
 
@@ -85,17 +83,17 @@ ul,li{
 }
 .list3{
   position: absolute;
-  left: 70%;
+  left: 72%;
   bottom: 1px;
   
 }
 
 
-#addBtn{
+.addBtn{
   border: 1px solid #fbf9fb;
   border-radius: 50%;
   color: #f2e9e2;
-  font-size: 1.4rem;
+  font-size: 1rem;
   padding: 2px;
   background-color:#1e8449 ;
   
