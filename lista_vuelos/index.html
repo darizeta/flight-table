@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/vnd.icon" href="favicon/avion.png">
+  <title>Tabla de vuelos</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="list roundBorder">
+      <div class="date">
+        <div class="dateRight">
+          <div id="dateNumber"></div>
+          <div>
+          <div id="dateMonth"></div>
+          <div id="dateYear"></div>
+          <div id="datehour"></div>
+          </div>
+        </div>
+
+        <div id="dateText"></div>
+      </div>
+      <div class="companies">
+        <ul>
+          <li class="list1">Aereolinea</li>
+          <li class="list2">Num de vuelo</li>
+          <li class="list3">Hora de llegada</li>
+        </ul>
+      </div>
+      <div class="container-form">
+        <form action="#" id="userInput">
+          <input type="text" name="taskText" autocomplete="off" placeholder="Aereolinea" class="roundBorder">
+          <input type="number" name="taskText" autocomplete="off" placeholder="Num de vuelo"    class="roundBorder">
+          <input type="time" name="taskText"  placeholder="Hora de llegada" class="roundBorder">
+          <button type="submit" value="+" id="addBtn">+</button>
+      </div>
+      <h3>Vuelos</h3>
+        <div id="list" class="listContainer" >
+        
+        </div>
+          
+        </div>
+        
+      </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html
