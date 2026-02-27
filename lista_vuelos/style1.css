@@ -176,8 +176,7 @@ h3{
   color: blue;
   font-weight: bold;
 }
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 800px) and (min-width: 300px){
   .container-form input{
     width: 100%;
     padding: 10px;
