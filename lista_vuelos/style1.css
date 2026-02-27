@@ -176,3 +176,21 @@ h3{
   color: blue;
   font-weight: bold;
 }
+@media screen and (max-width: 600px) {
+  
+  .container-form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .container-form button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+
+  
+  
+}
