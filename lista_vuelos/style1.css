@@ -194,6 +194,7 @@ h3{
   .flights{
     width: 80px;
     font-size: 1rem;
+    align-items: center;
   }
   .taskItem{
     width: 100%;
