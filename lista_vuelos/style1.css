@@ -173,9 +173,8 @@ h3{
     padding: 15px;
   }
   ul li{
-    font-size: 1rem;
-    text-align: center;
-    
+    display: none;
+
   }
   .container-form input{
     width: 100%;
@@ -204,5 +203,12 @@ h3{
   .taskItem button{
     margin-left: 10px;
   }
-  
+  .avianca {
+  color: red;
+  font-weight: bold;
+  }
+  .latam{
+    color: blue;
+    font-weight: bold;
+  }
 }
