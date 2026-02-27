@@ -187,6 +187,11 @@ h3{
     left: 50%;
     transform: translateX(-50%);
   }
+  h3{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
 
 
