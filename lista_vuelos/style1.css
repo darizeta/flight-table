@@ -191,9 +191,15 @@ h3{
     transform: translateX(-50%);
     width: 100%;
   }
-
-
-
-  
+  .flights{
+    width: 80px;
+    font-size: 1.2rem;
+  }
+  .taskItem{
+    width: 100%;
+  }
+  .taskItem button{
+    margin-left: 10px;
+  }
   
 }
