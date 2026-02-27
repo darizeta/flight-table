@@ -47,8 +47,8 @@ let addTask = () =>{
     return;
   }
   
-  let isAvianca = newValue.toLowerCase() === "avianca".trim();
-  let isLatam = newValue.toLowerCase() === "latam".trim();
+  let isAvianca = newValue.toLowerCase().trim() === "avianca";
+  let isLatam = newValue.toLowerCase().trim() === "latam";
   let valueClass = isAvianca ? 'avianca' : isLatam ? 'latam' : '';
   
   
