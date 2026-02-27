@@ -20,6 +20,7 @@ const setDate = () => {
   /* toLocalString() es un metodo que devuelve una cadena con la representación
   al idioma de la fecha especificada */
 }
+setInterval(setDate, 1000);
 setDate();
 
 let counter =0;
